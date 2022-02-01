@@ -22,7 +22,7 @@ b = Entry(app, width=230)
 b.pack(padx=150, pady= 100)  
 
 
-button = Button(app, text="Generate Password", command=cal, bg="gray").place(x = 195,y = 150)  
+button = Button(app, text="Generated Password", command=cal, bg="gray").place(x = 195,y = 150)  
 
 
 a = Label(app, text='',bg= "gray",font='Helvetica 12 bold')
